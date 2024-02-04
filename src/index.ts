@@ -15,7 +15,7 @@ export interface Options {
     arrRegex?: RegExp;
 }
 
-class MongoQS {
+export default class MongoQS {
     ops: string[];
     alias: Record<string, string>;
     blacklist: Record<string, boolean>;
@@ -352,5 +352,3 @@ class MongoQS {
         return res;
     };
 }
-
-export default MongoQS;

@@ -13,7 +13,7 @@ export interface Options {
     valRegex?: RegExp;
     arrRegex?: RegExp;
 }
-declare class MongoQS {
+export default class MongoQS {
     ops: string[];
     alias: Record<string, string>;
     blacklist: Record<string, boolean>;
@@ -41,4 +41,4 @@ declare class MongoQS {
         [key: string]: any;
     };
 }
-export default MongoQS;
+export {};
