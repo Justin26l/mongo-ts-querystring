@@ -1,6 +1,6 @@
 {
     "name": "mongo-ts-querystring",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Parse and pass URL queries to MongoDB query",
     "author": "justin26l",
     "license": "MIT",
